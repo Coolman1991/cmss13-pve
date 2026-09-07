@@ -991,7 +991,7 @@ GLOBAL_LIST_EMPTY_TYPED(gear_datums_by_name, /datum/gear)
 	path = /obj/item/clothing/accessory/patch/Hyperdyne_patch
 
 /datum/gear/patch/miscellaneous/seegson_patch
-	display_name = "Seegson conglomerate patch"
+	display_name = "Seegson Conglomerate patch"
 	path = /obj/item/clothing/accessory/patch/Seegson_patch
 
 /datum/gear/patch/miscellaneous/lasalle_patch
