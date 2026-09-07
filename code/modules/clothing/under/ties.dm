@@ -525,7 +525,7 @@
 //Hyperdyne patches
 /obj/item/clothing/accessory/patch/Hyperdyne_patch
 	name = "Hyperdyne Systems patch"
-	desc = "A patch worn by employees of Hyperdyne Systems, once a great developer of synthetics and now only a company remaining entirely on the UPP market."
+	desc = "A patch worn by employees of Hyperdyne Systems, once a great developer of synthetics and a creator of some fine weapons and space exploration It seems you previously worked for this corporation, whether it was part of Weyland Yutani at the time or whether it had already bought out its assets. The important thing is that you remember your time there, but it's more likely you were just a laborer working in a manufacturing site, now company entirely on the UPP market."
 	icon_state = "hyperdynepatch"
 
 //Flag patches
