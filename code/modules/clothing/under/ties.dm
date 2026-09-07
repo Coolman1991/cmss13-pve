@@ -518,13 +518,13 @@
 
 //Lasalle patches
 /obj/item/clothing/accessory/patch/Lasalle_patch
-name = "Lasalle Bionational patch"
+	name = "Lasalle Bionational patch"
 	desc = "The patch issued to Lasalle Bionational employees is fire-resistant and acid-resistant. It smells foul, reeking of the company's lab. Lasalle is famous for its scientists, who, after leaving Weyland Yutani, went on to start their own company and become involved in agriculture and bioweapons development. But it seems you were just a technical worker or a janitor, since all that remains of your work is a patch."
 	icon_state = "lasallepatch"
 
 //Hyperdyne patches
 /obj/item/clothing/accessory/patch/Hyperdyne_patch
-name = "Hyperdyne Systems patch"
+	name = "Hyperdyne Systems patch"
 	desc = "A patch worn by employees of Hyperdyne Systems, once a great developer of synthetics and now only a company remaining entirely on the UPP market."
 	icon_state = "hyperdynepatch"
 
@@ -535,7 +535,6 @@ name = "Hyperdyne Systems patch"
 	icon_state = "uaflagpatch"
 
 /obj/item/clothing/accessory/patch/brazil
-
 	name = "Brazilian flag patch"
 	desc = "A fire-resistant shoulder patch, with the flag of Brazil, a large South American nation of Earth."
 	icon_state = "brazilpatch"
@@ -594,12 +593,6 @@ name = "Hyperdyne Systems patch"
 	name = "Marine Space Force Herculis patch"
 	desc = "A fire-resistant shoulder patch, depicting the logo of Marine Space Force III, Herculis, deployed throughout the Anglo-Japanese arm from the outer veil to the ICSC Network, this patch is often worn by any general assigned to the MSF Herculis, US Space Command and UA Allied Command Generals often have their own patches."
 	icon_state = "msfpatch"
-
-// Hyperdyne patch
-/obj/item/clothing/accessory/patch/hyperdyne_patch
-	name = "Hyperdyne Corporation patch"
-	desc = "A sleek corporate patch bearing the logo of the Hyperdyne Corporation—one of the most powerful conglomerates. Known for synthetic production, AI research, and deep-space logistics. Wearing this patch implies loyalty to profit over people."
-	icon_state = "hyperdynepatch"
 
 /obj/item/clothing/accessory/patch/conam_patch
 	name = "Con-Amalagated Corporation patch"
