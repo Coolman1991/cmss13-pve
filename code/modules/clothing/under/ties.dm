@@ -510,6 +510,24 @@
 	desc = "A fire-resistant shoulder patch. Was worn by workers and then later prisoners on the Fiorina 'Fury' 161 facility, a rare relic, after the facility went dark in 2179."
 	icon_state = "fury161patch"
 
+//Seegson patches
+/obj/item/clothing/accessory/patch/Seegson_patch
+	name = "Seegson patch"
+	desc = "The patch issued by a Seegson conglomerate employee is old and worn, but still holds its shape despite being made of cheap materials. Does anyone still remember a company called Seegson? A second-rate company producing cheap knockoffs, as the colonial newspaper began calling it after 2135."
+	icon_state = "seegsonpatch"
+
+//Lasalle patches
+/obj/item/clothing/accessory/patch/Lasalle_patch
+name = "Lasalle Bionational patch"
+	desc = "The patch issued to Lasalle Bionational employees is fire-resistant and acid-resistant. It smells foul, reeking of the company's lab. Lasalle is famous for its scientists, who, after leaving Weyland Yutani, went on to start their own company and become involved in agriculture and bioweapons development. But it seems you were just a technical worker or a janitor, since all that remains of your work is a patch."
+	icon_state = "lasallepatch"
+
+//Hyperdyne patches
+/obj/item/clothing/accessory/patch/Hyperdyne_patch
+name = "Hyperdyne Systems patch"
+	desc = "A patch worn by employees of Hyperdyne Systems, once a great developer of synthetics and now only a company remaining entirely on the UPP market."
+	icon_state = "hyperdynepatch"
+
 //Flag patches
 /obj/item/clothing/accessory/patch/ua
 	name = "UA flag patch"
