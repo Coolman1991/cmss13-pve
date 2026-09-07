@@ -988,9 +988,17 @@ GLOBAL_LIST_EMPTY_TYPED(gear_datums_by_name, /datum/gear)
 
 /datum/gear/patch/miscellaneous/hyperdyne
 	display_name = "Hyperdyne Corporation patch"
-	path = /obj/item/clothing/accessory/patch/hyperdyne_patch
+	path = /obj/item/clothing/accessory/patch/Hyperdyne_patch
 
-/datum/gear/patch/miscellaneous/hyperdyne
+/datum/gear/patch/miscellaneous/seegson_patch
+	display_name = "Seegson conglomerate patch"
+	path = /obj/item/clothing/accessory/patch/Seegson_patch
+
+/datum/gear/patch/miscellaneous/lasalle_patch
+	display_name = "Lasalle Bionational patch"
+	path = /obj/item/clothing/accessory/patch/Lasalle_patch
+
+/datum/gear/patch/miscellaneous/Brazilian_patch
 	display_name = "Brazilian flag patch"
 	path = /obj/item/clothing/accessory/patch/brazil
 
