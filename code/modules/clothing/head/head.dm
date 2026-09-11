@@ -507,6 +507,7 @@
 	icon = 'icons/obj/items/clothing/hats.dmi'
 	item_icons = list(
 		WEAR_HEAD = 'icons/mob/humans/onmob/head_0.dmi'
+)
 
 /obj/item/clothing/head/cmcap/deserttwe
 	name = "Desert TWE commando cap"
@@ -515,6 +516,7 @@
 	icon = 'icons/obj/items/clothing/hats.dmi'
 	item_icons = list(
 		WEAR_HEAD = 'icons/mob/humans/onmob/head_0.dmi'
+)
 
 /obj/item/clothing/head/cmcap/blacktwe
 	name = "Black TWE commando cap"
