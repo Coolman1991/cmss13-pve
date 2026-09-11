@@ -567,6 +567,14 @@ GLOBAL_LIST_EMPTY_TYPED(gear_datums_by_name, /datum/gear)
 	path = /obj/item/clothing/head/beret/royal_marine_pvp/team_leader
 	allowed_roles = list(JOB_TWE_RMC_SECTIONLEADER, JOB_TWE_RMC_TEAMLEADER, JOB_TWE_RMC_TROOPLEADER)
 
+/datum/gear/clothing/rmc/rmc_blackcap
+	display_name = "Commando black cap"
+	path = /obj/item/clothing/head/cmcap/black/twe
+
+/datum/gear/clothing/rmc/rmc_desertcap
+	display_name = "Commando desert cap"
+	path = /obj/item/clothing/head/cmcap/desert/twe
+
 /datum/gear/clothing/rmc/iasf_beret
 	display_name = "IASF beret"
 	path = /obj/item/clothing/head/cmcap/royal_marine/iasf
