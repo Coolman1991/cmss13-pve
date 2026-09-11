@@ -558,6 +558,14 @@ GLOBAL_LIST_EMPTY_TYPED(gear_datums_by_name, /datum/gear)
 	display_name = "RMC turban"
 	path = /obj/item/clothing/head/beanie/royal_marine/turban
 
+/datum/gear/clothing/rmc/blackcap
+	display_name = "Commando black cap"
+	path = /obj/item/clothing/head/cmcap/blacktwe
+
+/datum/gear/clothing/rmc/desertcap
+	display_name = "Commando desert cap"
+	path = /obj/item/clothing/head/cmcap/deserttwe
+
 /datum/gear/clothing/rmc/rmc_beret
 	display_name = "Royal marine beret"
 	path = /obj/item/clothing/head/beret/royal_marine_pvp
@@ -566,14 +574,6 @@ GLOBAL_LIST_EMPTY_TYPED(gear_datums_by_name, /datum/gear)
 	display_name = "Royal marine officer beret"
 	path = /obj/item/clothing/head/beret/royal_marine_pvp/team_leader
 	allowed_roles = list(JOB_TWE_RMC_SECTIONLEADER, JOB_TWE_RMC_TEAMLEADER, JOB_TWE_RMC_TROOPLEADER)
-
-/datum/gear/clothing/rmc/blackcap
-	display_name = "Commando black cap"
-	path = /obj/item/clothing/head/cmcap/blacktwe
-
-/datum/gear/clothing/rmc/desertcap
-	display_name = "Commando desert cap"
-	path = /obj/item/clothing/head/cmcap/deserttwe
 
 /datum/gear/clothing/rmc/iasf_beret
 	display_name = "IASF beret"
