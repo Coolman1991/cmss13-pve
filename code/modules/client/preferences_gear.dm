@@ -569,11 +569,11 @@ GLOBAL_LIST_EMPTY_TYPED(gear_datums_by_name, /datum/gear)
 
 /datum/gear/clothing/rmc/blackcap
 	display_name = "Commando black cap"
-	path = /obj/item/clothing/head/cmcap/black/twe
+	path = /obj/item/clothing/head/cmcap/blacktwe
 
 /datum/gear/clothing/rmc/desertcap
 	display_name = "Commando desert cap"
-	path = /obj/item/clothing/head/cmcap/desert/twe
+	path = /obj/item/clothing/head/cmcap/deserttwe
 
 /datum/gear/clothing/rmc/iasf_beret
 	display_name = "IASF beret"
