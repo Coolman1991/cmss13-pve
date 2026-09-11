@@ -440,6 +440,57 @@
 	rank_short = PAY_SHORT_AO10C
 	icon_state = "ranks_flagofficer"
 
+
+/*################################################
+################ UPP  ###################
+################################################*/
+//ENLISTED
+/obj/item/clothing/accessory/ranks/upp/UE1
+	name = "rank shoulder boards"
+	rank_short = PAY_SHORT_UE1
+	icon_state = "upp_private"
+
+/obj/item/clothing/accessory/ranks/upp/UE2
+	name = "rank shoulder boards"
+	rank_short = PAY_SHORT_UE2
+	icon_state = "upp_seniorprivate"
+
+/obj/item/clothing/accessory/ranks/upp/UE3
+	name = "rank shoulder boards"
+	rank_short = PAY_SHORT_UE3
+	icon_state = "upp_juniorsergeant"
+
+/obj/item/clothing/accessory/ranks/upp/UE4
+	name = "rank shoulder boards"
+	rank_short = PAY_SHORT_UE4
+	icon_state = "upp_sergeant"
+
+/obj/item/clothing/accessory/ranks/upp/UE5
+	name = "rank shoulder boards"
+	rank_short = PAY_SHORT_UE5
+	icon_state = upp_seniorsergeant"
+
+/obj/item/clothing/accessory/ranks/upp/UE6
+	name = "rank shoulder boards"
+	rank_short = PAY_SHORT_UE6
+	icon_state = upp_sergeantmajor"
+
+//OFFICERS
+/obj/item/clothing/accessory/ranks/upp/UO1
+	name = "rank shoulder boards"
+	rank_short = PAY_SHORT_UO1
+	icon_state = upp_juniorlieutenant"
+
+/obj/item/clothing/accessory/ranks/upp/UO2
+	name = "rank shoulder boards"
+	rank_short = PAY_SHORT_UO2
+	icon_state = upp_lieutenant"
+
+/obj/item/clothing/accessory/ranks/upp/UO3
+	name = "rank shoulder boards"
+	rank_short = PAY_SHORT_UO3
+	icon_state = upp_seniorlieutenant"
+
 /*################################################
 ################ ROYAL MARINES  ###################
 ################################################*/
