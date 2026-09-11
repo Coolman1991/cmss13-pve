@@ -412,7 +412,7 @@
 	icon_state = "cap_snow"
 
 /obj/item/clothing/head/cmcap/desert/twe
-	name = " Besert TWE commando cap"
+	name = " Desert TWE commando cap"
 	desc = "A desert cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
 	icon_state = "desertwe_cap"
 
