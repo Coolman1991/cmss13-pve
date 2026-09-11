@@ -411,22 +411,6 @@
 	desc = "A utility cap worn in cold weather environments."
 	icon_state = "cap_snow"
 
-/obj/item/clothing/head/cmcap/desert/twe
-	name = " Desert TWE commando cap"
-	desc = "A desert cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
-	icon_state = "desertwe_cap"
-	icon = 'icons/obj/items/clothing/hats.dmi'
-	item_icons = list(
-		WEAR_HEAD = 'icons/mob/humans/onmob/head_0.dmi
-
-/obj/item/clothing/head/cmcap/black/twe
-	name = " Black TWE commando cap"
-	desc = "A black cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
-	icon_state = "twe_cap"
-	icon = 'icons/obj/items/clothing/hats.dmi'
-	item_icons = list(
-		WEAR_HEAD = 'icons/mob/humans/onmob/head_0.dmi
-
 /obj/item/clothing/head/cmcap/desert
 	name = "\improper desert utility cap"
 	desc = "A desert BDU utility cap."
@@ -520,6 +504,22 @@
 	name = "Seegson Cap"
 	desc = "A Seegson worker's cap looks old and worn. Issued to workers at stations and some colonies, it looks stylish, but doesn't protect the head while working. The tag on the back reads: Seegson in pursuit of affordable quality. Some workers say the company's androids Working Joe themselves used to wear this cap, but the company abandoned it due to both the idea and the extra expense."
 	icon_state = "seegson_cap"
+	icon = 'icons/obj/items/clothing/hats.dmi'
+	item_icons = list(
+		WEAR_HEAD = 'icons/mob/humans/onmob/head_0.dmi'
+
+/obj/item/clothing/head/cmcap/desert/twe
+	name = "Desert TWE commando cap"
+	desc = "A desert cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
+	icon_state = "desertwe_cap"
+	icon = 'icons/obj/items/clothing/hats.dmi'
+	item_icons = list(
+		WEAR_HEAD = 'icons/mob/humans/onmob/head_0.dmi'
+
+/obj/item/clothing/head/cmcap/black/twe
+	name = "Black TWE commando cap"
+	desc = "A black cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
+	icon_state = "twe_cap"
 	icon = 'icons/obj/items/clothing/hats.dmi'
 	item_icons = list(
 		WEAR_HEAD = 'icons/mob/humans/onmob/head_0.dmi'
