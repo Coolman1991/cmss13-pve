@@ -484,11 +484,6 @@
 /obj/item/clothing/accessory/ranks/upp/UO2
 	name = "rank shoulder boards"
 	rank_short = PAY_SHORT_UO2
-	icon_state = upp_lieutenant"
-
-/obj/item/clothing/accessory/ranks/upp/UO3
-	name = "rank shoulder boards"
-	rank_short = PAY_SHORT_UO3
 	icon_state = upp_seniorlieutenant"
 
 /*################################################
