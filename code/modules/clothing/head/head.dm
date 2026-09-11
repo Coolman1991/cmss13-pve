@@ -415,11 +415,17 @@
 	name = " Desert TWE commando cap"
 	desc = "A desert cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
 	icon_state = "desertwe_cap"
+	icon = 'icons/obj/items/clothing/hats.dmi'
+	item_icons = list(
+		WEAR_HEAD = 'icons/mob/humans/onmob/head_0.dmi
 
 /obj/item/clothing/head/cmcap/black/twe
 	name = " Black TWE commando cap"
 	desc = "A black cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
 	icon_state = "twe_cap"
+	icon = 'icons/obj/items/clothing/hats.dmi'
+	item_icons = list(
+		WEAR_HEAD = 'icons/mob/humans/onmob/head_0.dmi
 
 /obj/item/clothing/head/cmcap/desert
 	name = "\improper desert utility cap"
