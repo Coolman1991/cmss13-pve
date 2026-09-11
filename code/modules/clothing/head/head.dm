@@ -411,6 +411,16 @@
 	desc = "A utility cap worn in cold weather environments."
 	icon_state = "cap_snow"
 
+/obj/item/clothing/head/cmcap/desert/twe
+	name = "\Desert TWE commando cap"
+	desc = "A desert cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
+	icon_state = "desertwe_cap"
+
+/obj/item/clothing/head/cmcap/black/twe
+	name = "\Black TWE commando cap"
+	desc = "A black cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
+	icon_state = "twe_cap"
+
 /obj/item/clothing/head/cmcap/desert
 	name = "\improper desert utility cap"
 	desc = "A desert BDU utility cap."
