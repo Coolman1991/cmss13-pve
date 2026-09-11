@@ -558,11 +558,11 @@ GLOBAL_LIST_EMPTY_TYPED(gear_datums_by_name, /datum/gear)
 	display_name = "RMC turban"
 	path = /obj/item/clothing/head/beanie/royal_marine/turban
 
-/datum/gear/clothing/rmc/blackcap
+/datum/gear/headwear/rmc/blackcap
 	display_name = "Commando black cap"
 	path = /obj/item/clothing/head/cmcap/blacktwe
 
-/datum/gear/clothing/rmc/desertcap
+/datum/gear/headwear/rmc/desertcap
 	display_name = "Commando desert cap"
 	path = /obj/item/clothing/head/cmcap/deserttwe
 
