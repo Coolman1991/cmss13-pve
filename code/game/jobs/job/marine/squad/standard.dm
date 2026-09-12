@@ -133,7 +133,7 @@
 	gear_preset = /datum/equipment_preset/uscm/pfc/upp/forecon
 	gear_preset_secondary = /datum/equipment_preset/uscm/pfc/upp/forecon/senior_private
 	gear_preset_tertiary = /datum/equipment_preset/uscm/pfc/upp/forecon/junior_sergeant
-	job_options = list(SR_PVT_VARIANT = "SrPVT", JRSGT_VARIANT = "JrSGT", SGT_VARIANT = "SGT")
+	job_options = list(SR_PVT_VARIANT = "SrPVT", JSGT_VARIANT = "JrSGT", SGT_VARIANT = "SGT")
 
 /obj/effect/landmark/start/marine/upp/forecon
 	name = JOB_SQUAD_MARINE_FORECON_UPP
