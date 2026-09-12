@@ -120,7 +120,7 @@
 	title = JOB_SQUAD_UPP_RTO
 	gear_preset = /datum/equipment_preset/uscm/rto/upp
 	gear_preset_secondary = /datum/equipment_preset/uscm/rto/upp/junior_sergeant
-	job_options = list(SR_PVT_VARIANT = "SrPVT", CPL_VARIANT = "CPL")
+	job_options = list(SR_PVT_VARIANT = "SrPVT", JSGT_VARIANT = "JrSGT")
 
 /obj/effect/landmark/start/marine/upp/rto
 	name = JOB_SQUAD_UPP_RTO
@@ -133,7 +133,7 @@
 	gear_preset = /datum/equipment_preset/uscm/pfc/upp/forecon
 	gear_preset_secondary = /datum/equipment_preset/uscm/pfc/upp/forecon/senior_private
 	gear_preset_tertiary = /datum/equipment_preset/uscm/pfc/upp/forecon/junior_sergeant
-	job_options = list(SR_PVT_VARIANT = "SrPVT", CPL_VARIANT = "CPL", JSGT_VARIANT = "JrSGT")
+	job_options = list(SR_PVT_VARIANT = "SrPVT", JrSGT_VARIANT = "JrSGT", SGT_VARIANT = "SGT")
 
 /obj/effect/landmark/start/marine/upp/forecon
 	name = JOB_SQUAD_MARINE_FORECON_UPP
