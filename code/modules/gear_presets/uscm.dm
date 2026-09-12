@@ -131,7 +131,7 @@
 	new_human.undershirt = "Naval Infantry Telnyashka"
 
 /datum/equipment_preset/uscm/pfc/upp/private
-	name = parent_type::name + " (E1 Rank)"
+	name = parent_type::name + " (UE1 Rank)"
 	paygrades = list(PAY_SHORT_UE1 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/pfc/forecon
