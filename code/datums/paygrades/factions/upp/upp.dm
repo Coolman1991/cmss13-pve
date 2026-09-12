@@ -10,35 +10,41 @@
 	paygrade = PAY_SHORT_UE1
 	name = "Private"
 	prefix = "Pvt."
-
+	rank_pin = /obj/item/clothing/accessory/ranks/upp/UE1
+	
 /datum/paygrade/upp/ue2
 	paygrade = PAY_SHORT_UE2
 	name = "Senior Private"
 	prefix = "SrPvt."
-	pay_multiplier = 0.2
-
+	rank_pin = /obj/item/clothing/accessory/ranks/upp/UE2
+	pay_multiplier = 0.3
+	
 /datum/paygrade/upp/ue3
 	paygrade = PAY_SHORT_UE3
 	name = "Junior Sergeant"
 	prefix = "JrSgt."
+	rank_pin = /obj/item/clothing/accessory/ranks/upp/UE3
 	pay_multiplier = 0.5
-
+	
 /datum/paygrade/upp/ue4
 	paygrade = PAY_SHORT_UE4
 	name = "Sergeant"
 	prefix = "Sgt."
+	rank_pin = /obj/item/clothing/accessory/ranks/upp/UE4
 	pay_multiplier = 0.7
-
+	
 /datum/paygrade/upp/ue5
 	paygrade = PAY_SHORT_UE5
 	name = "Senior Sergeant"
 	prefix = "SrSgt."
+	rank_pin = /obj/item/clothing/accessory/ranks/upp/UE5
 	pay_multiplier = 0.9
-
+	
 /datum/paygrade/upp/ue6
 	paygrade = PAY_SHORT_UE6
 	name = "Sergeant Major"
 	prefix = "SgtMaj."
+	rank_pin = /obj/item/clothing/accessory/ranks/upp/UE6
 	pay_multiplier = 1
 
 //UPP Commandos
@@ -67,6 +73,7 @@
 	paygrade = PAY_SHORT_UO1
 	name = "Junior Lieutenant"
 	prefix = "Jr. Lt."
+	rank_pin = /obj/item/clothing/accessory/ranks/upp/UO1
 	pay_multiplier = 1.25
 	officer_grade = GRADE_OFFICER
 
@@ -74,6 +81,7 @@
 	paygrade = PAY_SHORT_UO2
 	name = "Senior Lieutenant"
 	prefix = "Sr. LT."
+	rank_pin = /obj/item/clothing/accessory/ranks/upp/UO2
 	pay_multiplier = 1.5
 	officer_grade = GRADE_OFFICER
 
