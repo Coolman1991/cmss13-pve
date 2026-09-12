@@ -82,7 +82,7 @@
 	spawn_positions = 2
 	gear_preset = /datum/equipment_preset/uscm/pfc/forecon
 	gear_preset_secondary = /datum/equipment_preset/uscm/pfc/forecon/pfc
-	gear_preset_tertiary = /datum/equipment_preset/uscm/pfc/upp/forecon/junior_sergeant
+	gear_preset_tertiary = /datum/equipment_preset/uscm/pfc/forecon/corporal
 	job_options = list(PFC_VARIANT = "PFC", LCPL_VARIANT = "LCPL", CPL_VARIANT = "CPL")
 
 /datum/job/marine/standard/ai/forecon/handle_job_options(option)
