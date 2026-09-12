@@ -158,8 +158,8 @@
 	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/pfc/upp/forecon/junior_sergeant
-	name = parent_type::name + " (E4 Rank)"
-	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
+	name = parent_type::name + " (E3 Rank)"
+	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
 //*****************************************************************************************************/
 
@@ -194,7 +194,7 @@
 	name = "UPP Squad Machinegunner"
 	access = list(ACCESS_UPP_GENERAL, ACCESS_UPP_MACHINEGUN)
 	assignment = JOB_SQUAD_SMARTGUN_UPP
-	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "MG"
 	languages = list(LANGUAGE_RUSSIAN)
 	idtype = /obj/item/card/id/dogtag/upp
@@ -204,7 +204,7 @@
 /datum/equipment_preset/uscm/sg/upp/load_gear(mob/living/carbon/human/new_human)
 	new_human.undershirt = "Naval Infantry Telnyashka"
 
-/datum/equipment_preset/uscm/sg/upp/corporal
+/datum/equipment_preset/uscm/sg/upp/junior_sergeant
 	name = parent_type::name + " (E3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
@@ -294,7 +294,7 @@
 
 	minimap_icon = "rto"
 
-/datum/equipment_preset/uscm/rto/upp/corporal
+/datum/equipment_preset/uscm/rto/upp/junior_sergeant
 	name = parent_type::name + " (E3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
@@ -306,7 +306,7 @@
 	assignment = JOB_SQUAD_RTO_FORECON_UPP
 	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
 
-/datum/equipment_preset/uscm/rto/upp/forecon/corporal
+/datum/equipment_preset/uscm/rto/upp/forecon/junior_sergeant
 	name = parent_type::name + " (E3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
@@ -346,7 +346,7 @@
 
 /datum/equipment_preset/uscm/medic/upp
 	name = "UPP Platoon Sanitar"
-	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 	access = list(ACCESS_UPP_GENERAL, ACCESS_UPP_MEDPREP, ACCESS_UPP_MEDICAL)
 	assignment = JOB_SQUAD_MEDIC_UPP
 	role_comm_title = "PltStr"
@@ -358,7 +358,7 @@
 /datum/equipment_preset/uscm/medic/upp/load_gear(mob/living/carbon/human/new_human)
 	new_human.undershirt = "Naval Infantry Telnyashka"
 
-/datum/equipment_preset/uscm/medic/upp/corporal
+/datum/equipment_preset/uscm/medic/upp/junior_sergeant
 	name = parent_type::name + " (E3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
@@ -391,20 +391,16 @@
 /datum/equipment_preset/uscm/medic/upp/forecon
 	name = "UPP Recon Sanitar"
 	assignment = JOB_SQUAD_MEDIC_FORECON_UPP
-	paygrades = list(PAY_SHORT_UE5 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/combat_medic/recon
 
 /datum/equipment_preset/uscm/medic/upp/forecon/junior_sergeant
-	name = parent_type::name + " (E4 Rank)"
-	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
-
-/datum/equipment_preset/uscm/medic/upp/forecon/corporal
 	name = parent_type::name + " (E3 Rank)"
-	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/medic/upp/forecon/senior_private
 	name = parent_type::name + " (E2 Rank)"
-	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
 
 //*****************************************************************************************************/
 
@@ -428,7 +424,7 @@
 	name = "UPP Squad Sergeant"
 	assignment = JOB_SQUAD_TEAM_LEADER_UPP
 	role_comm_title = "SqSgt"
-	paygrades = list(PAY_SHORT_UE5 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 	access = list(ACCESS_UPP_GENERAL, ACCESS_UPP_TLPREP)
 	languages = list(LANGUAGE_RUSSIAN)
 	idtype = /obj/item/card/id/dogtag/upp
@@ -439,7 +435,7 @@
 	new_human.undershirt = "Naval Infantry Telnyashka"
 
 /datum/equipment_preset/uscm/tl/upp/junior_sergeant
-	name = parent_type::name + " (E4 Rank)"
+	name = parent_type::name + " (E3 Rank)"
 	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/tl/forecon
@@ -456,13 +452,13 @@
 /datum/equipment_preset/uscm/tl/upp/forecon
 	name = "UPP Assistant Recon Squad Sergeant"
 	assignment = JOB_SQUAD_TEAM_LEADER_FORECON_UPP
-	paygrades = list(PAY_SHORT_UE6 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "ARSS"
 	skills = /datum/skills/tl/recon
 
 /datum/equipment_preset/uscm/tl/upp/forecon/sergeant
-	name = parent_type::name + " (E5 Rank)"
-	paygrades = list(PAY_SHORT_UE5 = JOB_PLAYTIME_TIER_0)
+	name = parent_type::name + " (E4 Rank)"
+	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
 
 
 /*****************************************************************************************************/
@@ -517,7 +513,7 @@
 	assignment = JOB_SQUAD_LEADER_UPP
 	role_comm_title = "PltSgt"
 	access = list(ACCESS_UPP_GENERAL, ACCESS_UPP_LEADERSHIP, ACCESS_UPP_FLIGHT)
-	paygrades = list(PAY_SHORT_UE7 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE6 = JOB_PLAYTIME_TIER_0)
 	languages = list(LANGUAGE_RUSSIAN, LANGUAGE_ENGLISH, LANGUAGE_CHINESE)
 	idtype = /obj/item/card/id/dogtag/upp
 	faction_group = list(FACTION_UPP)
@@ -543,7 +539,7 @@
 /datum/equipment_preset/uscm/leader/upp/forecon
 	name = "UPP Recon Squad Sergeant"
 	assignment = JOB_SQUAD_LEADER_FORECON_UPP
-	paygrades = list(PAY_SHORT_UE7 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE5 = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "RSS"
 
 //*****************************************************************************************************/
