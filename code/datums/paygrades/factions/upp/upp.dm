@@ -19,30 +19,24 @@
 
 /datum/paygrade/upp/ue3
 	paygrade = PAY_SHORT_UE3
-	name = "Corporal"
-	prefix = "Cpl."
-	pay_multiplier = 0.3
-
-/datum/paygrade/upp/ue4
-	paygrade = PAY_SHORT_UE4
 	name = "Junior Sergeant"
 	prefix = "JrSgt."
 	pay_multiplier = 0.5
 
-/datum/paygrade/upp/ue5
-	paygrade = PAY_SHORT_UE5
+/datum/paygrade/upp/ue4
+	paygrade = PAY_SHORT_UE4
 	name = "Sergeant"
 	prefix = "Sgt."
 	pay_multiplier = 0.7
 
-/datum/paygrade/upp/ue6
-	paygrade = PAY_SHORT_UE6
+/datum/paygrade/upp/ue5
+	paygrade = PAY_SHORT_UE5
 	name = "Senior Sergeant"
 	prefix = "SrSgt."
 	pay_multiplier = 0.9
 
-/datum/paygrade/upp/ue7
-	paygrade = PAY_SHORT_UE7
+/datum/paygrade/upp/ue6
+	paygrade = PAY_SHORT_UE6
 	name = "Sergeant Major"
 	prefix = "SgtMaj."
 	pay_multiplier = 1
