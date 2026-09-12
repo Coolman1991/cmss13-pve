@@ -150,15 +150,15 @@
 /datum/equipment_preset/uscm/pfc/upp/forecon
 	name = "UPP Recon Infantryman"
 	assignment = JOB_SQUAD_MARINE_FORECON_UPP
-	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/pfc/recon
 
 /datum/equipment_preset/uscm/pfc/upp/forecon/senior_private
-	name = parent_type::name + " (E2 Rank)"
+	name = parent_type::name + " (UE2 Rank)"
 	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/pfc/upp/forecon/junior_sergeant
-	name = parent_type::name + " (E3 Rank)"
+	name = parent_type::name + " (UE3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
 //*****************************************************************************************************/
@@ -205,15 +205,15 @@
 	new_human.undershirt = "Naval Infantry Telnyashka"
 
 /datum/equipment_preset/uscm/sg/upp/junior_sergeant
-	name = parent_type::name + " (E3 Rank)"
+	name = parent_type::name + " (UE3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/sg/upp/senior_private
-	name = parent_type::name + " (E2 Rank)"
+	name = parent_type::name + " (UE2 Rank)"
 	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/sg/upp/private
-	name = parent_type::name + " (E1 Rank)"
+	name = parent_type::name + " (UE1 Rank)"
 	paygrades = list(PAY_SHORT_UE1 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/sg/forecon
@@ -295,7 +295,7 @@
 	minimap_icon = "rto"
 
 /datum/equipment_preset/uscm/rto/upp/junior_sergeant
-	name = parent_type::name + " (E3 Rank)"
+	name = parent_type::name + " (UE3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/rto/upp/load_gear(mob/living/carbon/human/new_human)
@@ -307,11 +307,11 @@
 	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/rto/upp/forecon/junior_sergeant
-	name = parent_type::name + " (E3 Rank)"
+	name = parent_type::name + " (UE3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/rto/upp/forecon/senior_private
-	name = parent_type::name + " (E2 Rank)"
+	name = parent_type::name + " (UE2 Rank)"
 	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
 
 //*****************************************************************************************************/
@@ -359,15 +359,15 @@
 	new_human.undershirt = "Naval Infantry Telnyashka"
 
 /datum/equipment_preset/uscm/medic/upp/junior_sergeant
-	name = parent_type::name + " (E3 Rank)"
+	name = parent_type::name + " (UE3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/medic/upp/senior_private
-	name = parent_type::name + " (E2 Rank)"
+	name = parent_type::name + " (UE2 Rank)"
 	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/medic/upp/private
-	name = parent_type::name + " (E1 Rank)"
+	name = parent_type::name + " (UE1 Rank)"
 	paygrades = list(PAY_SHORT_UE1 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/medic/forecon
@@ -395,11 +395,11 @@
 	skills = /datum/skills/combat_medic/recon
 
 /datum/equipment_preset/uscm/medic/upp/forecon/junior_sergeant
-	name = parent_type::name + " (E3 Rank)"
+	name = parent_type::name + " (UE3 Rank)"
 	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/medic/upp/forecon/senior_private
-	name = parent_type::name + " (E2 Rank)"
+	name = parent_type::name + " (UE3 Rank)"
 	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
 
 //*****************************************************************************************************/
@@ -523,7 +523,7 @@
 	new_human.undershirt = "Naval Infantry Telnyashka"
 
 /datum/equipment_preset/uscm/leader/upp/senior_sergeant
-	name = parent_type::name + " (E6 Rank)"
+	name = parent_type::name + " (UE6 Rank)"
 	paygrades = list(PAY_SHORT_UE6 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uscm/leader/forecon
