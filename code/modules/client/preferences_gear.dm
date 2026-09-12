@@ -554,9 +554,9 @@ GLOBAL_LIST_EMPTY_TYPED(gear_datums_by_name, /datum/gear)
 	display_name = "RMC beanie"
 	path = /obj/item/clothing/head/beanie/royal_marine
 
-/datum/gear/headwear/rmc/twecap
+/datum/gear/headwear/rmc/cap
 	display_name = "RMC cap"
-	path = /obj/item/clothing/head/cmcap/royal_marine/twecap
+	path = /obj/item/clothing/head/cmcap/royal_marine/cap
 
 /datum/gear/headwear/rmc/turban
 	display_name = "RMC turban"
