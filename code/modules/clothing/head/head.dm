@@ -1038,7 +1038,7 @@
 		WEAR_HEAD = 'icons/mob/humans/onmob/head_1.dmi'
 	)
 
-/obj/item/clothing/head/cmcap/royal_marine/twecap
+/obj/item/clothing/head/cmcap/royal_marine/cap
 	name = "royal marine cap"
 	desc = "A black cap for the Royal Commandos of the Three World Empire, featuring state insignia. It exudes genuine British patriotism toward the Empire and the Emperor."
 	icon_state = "twe_cap"
