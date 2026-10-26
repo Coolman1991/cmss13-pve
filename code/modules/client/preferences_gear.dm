@@ -1286,6 +1286,10 @@ GLOBAL_LIST_EMPTY_TYPED(gear_datums_by_name, /datum/gear)
 	display_name = "Die, 20 sides"
 	path = /obj/item/toy/dice/d20
 
+/datum/gear/toy/joetoy
+	display_name = "Toy Working Joe"
+	path = /obj/item/toy/prize/toyjoe
+
 /datum/gear/toy/crayon
 	display_name = "Crayon"
 	path = /obj/item/toy/crayon/rainbow
