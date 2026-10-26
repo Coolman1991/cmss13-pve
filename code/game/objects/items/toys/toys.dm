@@ -316,7 +316,7 @@
 	desc = "Mini-Mecha action figure! Collect them all! 11/11."
 	icon_state = "phazonprize"
 
-/obj/item/toy/prize/apc
+/obj/item/toy/prize/toyjoe
 	name = "toy Working Joe"
 	desc = "This version of the toy, produced by Seegson Synthetics for young fans of the company’s androids, is crafted from the same soft rubber as the original Working Joe. On the back, a label is visible: "Seegson — Tomorrow, Together."
 	icon_state = "joetoy"
