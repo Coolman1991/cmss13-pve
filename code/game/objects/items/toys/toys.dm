@@ -318,7 +318,7 @@
 
 /obj/item/toy/prize/toyjoe
 	name = "toy Working Joe"
-	desc = "This version of the toy, produced by Seegson Synthetics for young fans of the company’s androids, is crafted from the same soft rubber as the original Working Joe. On the back, a label is visible: "Seegson — Tomorrow, Together."
+	desc = "This version of the toy, produced by Seegson Synthetics for young fans of the company androids, is crafted from the same soft rubber as the original Working Joe. On the back, a label is visible: Seegson — Tomorrow, Together."
 	icon_state = "joetoy"
 
 /obj/item/toy/prize/apc
