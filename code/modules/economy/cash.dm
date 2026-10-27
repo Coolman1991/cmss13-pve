@@ -192,3 +192,9 @@
 	. = ..()
 	if(user == loc)
 		. += SPAN_NOTICE("Charge card's owner: [owner_name]. Dollars remaining: [worth].")
+
+/obj/item/spacecash/seegcash
+	name = "Seegson credit"
+	icon_state = "seegson_credit"
+	desc = "Seegson corporate credit."
+	worth = 1
