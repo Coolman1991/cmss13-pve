@@ -8,6 +8,9 @@ SUBSYSTEM_DEF(human_ai)
 
 	var/ai_kill = FALSE
 
+	/// If FALSE, AI medics only treat themselves
+	var/medics_treat_allies = TRUE
+
 	/// List of current squads
 	var/list/datum/human_ai_squad/squads = list()
 
@@ -45,6 +48,16 @@ SUBSYSTEM_DEF(human_ai)
 	SShuman_ai.ai_kill = !SShuman_ai.ai_kill
 	message_admins("[key_name_admin(usr)] [SShuman_ai.ai_kill? "killed" : "revived"] all human AI.")
 
+/datum/admins/proc/toggle_human_ai_medics()
+	set name = "Toggle Human AI Medics"
+	set category = "Game Master.Flags"
+
+	if(!check_rights(R_DEBUG))
+		return
+
+	SShuman_ai.medics_treat_allies = !SShuman_ai.medics_treat_allies
+	message_admins("[key_name_admin(usr)] [SShuman_ai.medics_treat_allies ? "allowed" : "forbade"] human AI medics to treat their allies.")
+
 /datum/controller/subsystem/human_ai/fire(resumed = FALSE)
 	if(ai_kill)
 		return
@@ -56,7 +69,8 @@ SUBSYSTEM_DEF(human_ai)
 	while(length(current_run))
 		var/datum/human_ai_brain/brain = current_run[length(current_run)]
 		current_run.len--
-		if(!QDELETED(brain) && !brain.tied_human?.client)
+		// The dead were reset on death and have nothing to think about until revived
+		if(!QDELETED(brain) && brain.tied_human && !brain.tied_human.client && (brain.tied_human.stat != DEAD))
 			brain.process(wait * 0.1)
 
 		if(MC_TICK_CHECK)
