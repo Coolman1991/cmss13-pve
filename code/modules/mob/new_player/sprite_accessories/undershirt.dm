@@ -213,3 +213,7 @@ GLOBAL_LIST_INIT_TYPED(undershirt_restricted, /datum/sprite_accessory/undershirt
 /datum/sprite_accessory/undershirt/civilian
 	name = "Seegson Worker Undershirt"
 	icon_state = "seegson_undershirt"
+
+/datum/sprite_accessory/undershirt/civilian
+	name = "Station Worker Undershirt"
+	icon_state = "stationworker_undershirt"
